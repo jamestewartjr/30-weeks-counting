@@ -4,7 +4,7 @@
   "description": "## Description Benchmark goals are projects that are designed to be done solo.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/jamestewartjr/30-weeks-counting#readme",
   "devDependencies": {
-    "chai": "^3.5.0"
-  }
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {}
 }
