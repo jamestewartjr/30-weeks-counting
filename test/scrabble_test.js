@@ -1,14 +1,14 @@
 const expect = require('chai').expect
-const scrabble = require('./scripts/scrabble.js')
-
-
+const scrabble = require('../scripts/scrabble.js')
 
 describe( "Scrabble", () => {
 
-  //If user gives input of letters playe
-  it( "getInput() will receive used letters.", () => {
-    expect( getInput() ).to.be.instanceof(String)
+  it( "getInput() will return an array", () => {
+    expect( getInput() ).to.be.instanceof(Array)
   })
-  //Output the number and count left in the bag.
+
+  it( "bagCheck() is an object", () => {
+    expect( bagCheck( 'a' ) ).to.be.exist
+  })
 
 })
