@@ -4,6 +4,7 @@
   "description": "## Description Benchmark goals are projects that are designed to be done solo.",
   "main": "index.js",
   "scripts": {
+    "stringIndex": "node ./scripts/stringIndex.js",
     "scrabble": "node ./scripts/scrabble.js",
     "guess": "node ./scripts/guess.js",
     "test": "mocha"
